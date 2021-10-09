@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-03T14:35:12 IST" name="Practice Suite" finished-at="2021-10-03T14:35:24 IST" duration-ms="11209">
+    <groups>
+    </groups>
+    <test started-at="2021-10-03T14:35:12 IST" name="Test Basics 1" finished-at="2021-10-03T14:35:24 IST" duration-ms="11209">
+      <class name="test.maven">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.maven@702b8b12]" started-at="2021-10-03T14:35:12 IST" name="openBrowser" finished-at="2021-10-03T14:35:14 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testngTest(java.lang.String)[pri:0, instance:test.maven@702b8b12]" started-at="2021-10-03T14:35:14 IST" name="testngTest" finished-at="2021-10-03T14:35:19 IST" duration-ms="5117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testngTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.maven@702b8b12]" started-at="2021-10-03T14:35:19 IST" name="tearDown" finished-at="2021-10-03T14:35:24 IST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.maven -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
