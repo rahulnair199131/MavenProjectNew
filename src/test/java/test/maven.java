@@ -40,6 +40,8 @@ public class maven {
 		
 		System.out.println("The data value is ++++++"+data);
 		
+		System.out.println("The data ");
+		
 		//System.out.println("Title is "+title);
 		
 		Assert.assertEquals(driver.getTitle(), data);
